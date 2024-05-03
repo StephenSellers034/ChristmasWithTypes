@@ -1,13 +1,11 @@
 ﻿using System;
 namespace ChristmasWithTypes
 {
-    public class Christmas
+    public class Christmas// created new class with propeties 
     {
         public string[] Presents;
         public string Santa { get; set; }
-        public int? TreeHeight { get; set; } //TODO Make the Height property nullable
-        
-        //TODO Make the property, "Day", type enum
+        public int? TreeHeight { get; set; } 
         public enum Day { Sunday, Monday, Tuesday, Wensday, Thursday, Friday, Saturday };
 
     }
